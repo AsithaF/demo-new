@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hardwareproject.demo.HardwareController">
+   <children>
+      <Label layoutX="50.0" layoutY="31.0" prefHeight="47.0" prefWidth="536.0" text="HardWare Inventroy System">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="134.0" prefHeight="18.0" prefWidth="102.0" text="Product Name">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="187.0" prefHeight="18.0" prefWidth="102.0" text="Product Price">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="247.0" prefHeight="18.0" prefWidth="102.0" text="Product Qty">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtName" layoutX="202.0" layoutY="134.0" prefHeight="26.0" prefWidth="235.0" />
+      <TextField fx:id="txtPrice" layoutX="202.0" layoutY="187.0" prefHeight="26.0" prefWidth="235.0" />
+      <TextField fx:id="txtQty" layoutX="202.0" layoutY="246.0" prefHeight="26.0" prefWidth="235.0" />
+      <Button layoutX="104.0" layoutY="312.0" mnemonicParsing="false" onAction="#save" prefHeight="34.0" prefWidth="74.0" text="Save" textFill="#c41c1c" />
+      <Button layoutX="420.0" layoutY="312.0" mnemonicParsing="false" onAction="#cansel" prefHeight="34.0" prefWidth="74.0" text="Cansel" textFill="#d40e0e" />
+   </children>
+</AnchorPane>
