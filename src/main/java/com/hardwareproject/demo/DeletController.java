@@ -54,6 +54,11 @@ public class DeletController {
 
         }
 
+        public void  dance(){
+
+
+        }
+
     }
 
 
