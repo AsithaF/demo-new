@@ -4,11 +4,9 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
+import org.w3c.dom.ls.LSOutput;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class DeletController {
 
@@ -55,6 +53,11 @@ public class DeletController {
         }
 
         public void  dance(){
+
+
+        }
+
+        public  void over(){
 
 
         }
