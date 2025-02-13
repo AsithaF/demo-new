@@ -49,6 +49,11 @@ public class DeletController {
         }
         }
 
+        public void play(){
+
+
+        }
+
     }
 
 
